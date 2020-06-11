@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.34ecfab9b871e5de0e705c343039874d.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.59f9853a2d1668b702c7286bbf6a354e.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable */
 
@@ -7,7 +7,6 @@ if (workbox) {
   
   self.__precacheManifest = [].concat(self.__precacheManifest || [])
   if (workbox && workbox.precaching) {
-    workbox.precaching.suppressWarnings()
     workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
   }
 } else {
