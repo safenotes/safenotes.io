@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "54bcd617901b9be21183d8d7f2a7191b",
+    "url": "/.gitignore"
+  },
+  {
     "revision": "5f2083d2cc192ca4325fc15548c4a83b",
     "url": "/.well-known/assetlinks.json"
   },
