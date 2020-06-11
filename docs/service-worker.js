@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.25e3e9891a56d2780ea08141d9636a91.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.1ce50bd3a456b51832575d95ecc18903.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable */
 
@@ -15,6 +15,8 @@ if (workbox) {
 
 // install new service worker when ok, then reload page.
 self.addEventListener('message', (msg) => {
+  console.log('sw message', msg );
+  
   if (msg.data.action == 'skipWaiting') {
     self.skipWaiting()
   }
