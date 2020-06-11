@@ -1,9 +1,5 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "658cc0e89b6eb834f10145ddcd0a06c1",
-    "url": "/.npmignore"
-  },
-  {
     "revision": "5f2083d2cc192ca4325fc15548c4a83b",
     "url": "/.well-known/assetlinks.json"
   },
