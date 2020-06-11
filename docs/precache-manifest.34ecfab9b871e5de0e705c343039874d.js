@@ -12,10 +12,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "95b9185565555f2b4405dff033ce56c8",
-    "url": "/_config.yml"
-  },
-  {
     "revision": "d3de08f9ae8445a2c0e7",
     "url": "/css/app.405883dd.css"
   },
